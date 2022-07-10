@@ -4,7 +4,7 @@ import timm
 class ConvNext(nn.Module):
     def __init__(self, n_outputs:int, **kwargs):
         super(ConvNext, self).__init__()
-        self.model = timm.create_model('convnext_xlarge_in22ft1k', pretrained=True)
+        self.model = timm.create_model('convnext_xlarge_in22k', pretrained=True)
         self.model.classifier = nn.Sequential(
             nn.Linear(in_features = 1792, out_features=625),
             nn.ReLU(),
