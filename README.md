@@ -32,6 +32,7 @@ ${PROJECT}
 
 - config: 학습/추론에 필요한 파라미터 등을 기록하는 yaml 파일
 - models
+    - convnext.py: convnext_xlarge_in22k 모델 클래스
     - effnet.py: Efficinetnet-b4 모델 클래스
     - customnet.py: 사용자를 위한 변경 가능한 모델 클래스
     - utils.py: config에서 지정한 모델 클래스를 불러와 리턴하는 파일
