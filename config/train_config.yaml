@@ -3,7 +3,7 @@ DIRECTORY:
 
 TRAINER :
   model: convnext
-  optimizer: SGD
+  optimizer: adam
   learning_rate: 5.0e-4
   weight_decay: 0.005
   loss: crossentropy
