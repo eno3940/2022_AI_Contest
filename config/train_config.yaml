@@ -3,7 +3,7 @@ DIRECTORY:
 
 TRAINER :
   model: convnext
-  optimizer: nadam
+  optimizer: SGD
   learning_rate: 5.0e-4
   weight_decay: 0.005
   loss: crossentropy
@@ -28,7 +28,7 @@ MODEL:
     n_outputs: 5
 
 DATALOADER:
-  batch_size: 16
+  batch_size: 4
   num_workers: 2
   shuffle: True
   pin_memory: True
