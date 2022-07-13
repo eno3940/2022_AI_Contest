@@ -1,0 +1,11 @@
+2022-07-13 12:03:16,589 | train | INFO | Set Logger results/train/20220713_210315
+2022-07-13 12:03:17,887 | train | INFO | Load data, train:8000 val:2000
+2022-07-13 12:04:25,137 | train | INFO | Initiated early stopper, mode: max, best score: inf, patience: 10
+2022-07-13 12:04:25,148 | train | INFO | --Train 0/30
+2022-07-13 12:04:40,816 | train | INFO | batch: 0/500 loss: 8.040512084960938
+2022-07-13 12:09:18,902 | train | INFO | batch: 100/500 loss: 1.3459405899047852
+2022-07-13 12:14:03,680 | train | INFO | batch: 200/500 loss: 1.102669596672058
+2022-07-13 12:18:48,296 | train | INFO | batch: 300/500 loss: 1.301012635231018
+2022-07-13 12:23:33,109 | train | INFO | batch: 400/500 loss: 1.072831392288208
+2022-07-13 12:28:15,297 | train | INFO | --Val 0/30
+2022-07-13 12:28:33,338 | train | INFO | batch: 0/125 loss: 1.3418502807617188
