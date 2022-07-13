@@ -1,10 +1,10 @@
 DIRECTORY:
-  dataset: /Users/inho/Desktop/DATA/01_splitdataset
-  sample: /Users/inho/Desktop/DATA/sample_submission.csv
+  dataset: /content/drive/MyDrive/DATA/01_splitdataset
+  sample: /content/drive/MyDrive/DATA/sample_submission.csv
   phase: test
 
 TRAIN:
-  train_serial: '20220623_043115'
+  train_serial: '20220713_214128'
 
 PREDICT:
   seed: 42
